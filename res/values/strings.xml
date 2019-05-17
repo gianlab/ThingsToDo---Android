@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<string name="save">Salva</string>
+    <string name="delete">Cancella</string>
+    <string name="app_name">Cose da fare</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Cose da fare</string>
+    <string name="ordina_per">Ordina per</string>
+    <string name="tab1">Azioni</string>
+    <string name="tab2">Categorie</string>
+    <string name="prompt_categoria">Selezionare la categoria</string> 
+    
+    <string name="tab3">Priorità</string>
+    <string name="category">Categoria</string>
+    <string name="create_azione">Crea Azione</string>
+    
+    <string name="no_transaction"> Nessuna azione salvata nella categoria selezionata!\n
+        Clicca su Menu per creare una azione.\n
+        Clicca sul tab Categorie e poi in Menu per creare o cancellare una categoria</string>
+    <string name="licence">
+ Copyright 2014 gian \n\n
+  
+  Questo programma è rilasciato sotto licenza Apache, versione 2.0 (la "Licenza");
+  È possibile ottenere una copia della licenza qui \n\n
+  
+  http://www.apache.org/licenses/LICENSE-2.0 \n\n
+  
+  Se non richiesto dalla legge vigente o concordato per iscritto, il software
+  sotto questa licenza è distribuito così com\'è,SENZA GARANZIE O CONDIZIONI DI ALCUN TIPO, espresse o implicite.
+  Vedere la licenza per la lingua specifica che disciplina le autorizzazioni e
+  limitazioni sotto tale licenza. \n\n
+  
+  Ringrazio Google per il codice in ApiDemos e Notepadv3 e per Android \n\n
+  Ringrazio Abdylas Tynyshov - userinterfaceicons.com per le icone rilasciate
+  sotto Creative Commons Attribution 3.0 United States License:
+  http://creativecommons.org/licenses/by/3.0/us/. \n\n
+ </string>
+    <string name="change_date">Cambia la data</string>
+    <string name="azione">Digitare l\'azione</string>
+    <string name="add_category">Aggiungi categoria</string>
+    <string name="max_categories">Massimo 10 categorie</string>
+    <string name="prompt_prior">Selezionare la priorità</string>
+    <string name="no_deleting">Non puoi cancellare un\'azione che non è salvata</string>
+    <string name="no_openaid">Nessun dato corrispondente ai criteri selezionati</string>
+
+</resources>

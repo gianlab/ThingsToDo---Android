@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="horizontal"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"  
+    >
+	<TextView android:id="@+id/data"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"   
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"/>
+        
+   <TextView android:id="@+id/categoria"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"   
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"/>
+
+    <TextView android:id="@+id/azione"
+        android:layout_width="fill_parent"   
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip" 
+        android:gravity="right"/>
+       
+</LinearLayout> -->
+
+ <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity" >
+
+   <!--  Il TableLayout si può gestire facilmente dal GraphicalLayout, inserendo col pulsantino le TableRow e 
+    poi trascindando i widgets all'interno della TableRow.
+    Gli attributi da ricordare sono layout_column (a partire da quale colonna inserire un oggetto) e
+    layout_span che fa l'unione di celle dove inserire un oggetto.
+    Nel caso dell'esempio il numero di colonne è dato dagli elementi della seconda TableRow  -->
+    
+   
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="0dp" 
+ 
+         >
+
+       
+        <TextView
+            android:id="@+id/data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dip"
+            
+            
+          ></TextView> 
+        <TextView
+            android:id="@+id/azione"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15sp" />
+
+    </TableRow>
+
+    <TableRow
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+         >
+
+         <TextView
+           
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:layout_margin="2dip"
+            
+           android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+        <TextView
+            android:id="@+id/categoria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dip"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </TableRow> 
+    <View
+        android:layout_height="2dip"
+        android:background="#43a3b2" />
+ 
+</TableLayout>
+ 

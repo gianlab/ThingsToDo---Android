@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1" >
+
+    <TableRow>
+
+        <Spinner
+            android:id="@+id/spinnerEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="true"
+            android:prompt="@string/prompt_categoria" />
+
+        <Spinner
+            android:id="@+id/spinnerPriorEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="true"
+            android:prompt="@string/prompt_prior" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/dateDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <Button
+            android:id="@+id/pickDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/change_date" />
+    </TableRow>
+
+   
+	
+    <TableRow>
+       <TextView
+           android:text="@string/azione"
+           android:textStyle="bold"
+           android:gravity="left"
+           android:padding="1dip" />
+		<ScrollView   
+		android:layout_width="fill_parent"
+       	android:layout_span="2"
+       	android:padding="1dip"
+        >  
+       <EditText android:id="@+id/entry_azione"
+       	   android:layout_span="2"
+       	   android:lines="2"
+       	   android:maxLines="2"
+		   android:layout_height="wrap_content"	       	  
+           android:layout_width="fill_parent"
+           />
+        </ScrollView>   
+   </TableRow>
+    
+    
+    <TableRow android:gravity="right" >
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete" />
+    </TableRow>
+
+</TableLayout>
